@@ -1,0 +1,8 @@
+# requirements
+pycaret
+mlflow
+streamlit==1.28.0
+matplotlib==3.6
+seaborn==0.13.0
+shap
+dagster
