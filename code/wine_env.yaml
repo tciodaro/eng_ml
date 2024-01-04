@@ -1,0 +1,37 @@
+name: wine-ml-env
+channels:
+- defaults
+dependencies:
+- python=3.8
+- pip
+- pip:
+  - mlflow==2.9
+  - pycaret==3.2
+  - mlflow==2.9
+  - streamlit==1.28
+  - matplotlib==3.6
+  - seaborn==0.13.0
+  - shap==0.44.0
+  - dagster==1.5
+  - openai==1.6.1
+  - langchain==0.0.352
+# name: mlflow-env
+
+# Python version required to run the project.
+# python: "3.8.10"
+# # Dependencies required to build packages. This field is optional.
+# build_dependencies:
+#   - pip
+#   - setuptools
+# # Dependencies required to run the project.
+# dependencies:
+#   - mlflow==2.9
+#   - pycaret==3.2
+#   - mlflow==2.9
+#   - streamlit==1.28
+#   - matplotlib==3.6
+#   - seaborn==0.13.0
+#   - shap==0.44.0
+#   - dagster==1.5
+#   - openai==1.6.1
+#   - langchain==0.0.352

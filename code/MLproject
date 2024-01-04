@@ -1,0 +1,14 @@
+name: wine-ml-model
+
+# python_env: wine_env.yaml
+conda_env: wine_env.yaml
+# Can have a docker_env instead of a conda_env, e.g.
+# docker_env:
+#    image:  mlflow-docker-example
+
+entry_points:
+  main:
+    parameters:
+      seed: {type: int, default: 1}
+      experiment_name: {type: str, default "wine-ml-model"}
+    command: "python ml_wine.py {seed} {experiment_name}"
