@@ -8,3 +8,6 @@ shap==0.44.0
 dagster==1.5
 openai==1.6.1
 langchain==0.0.352
+plotly
+
+
